@@ -1,0 +1,282 @@
+﻿body {
+    background-color:rebeccapurple;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Sniglet', cursive;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 500px;
+    color: #F90;
+    text-align: center;
+}
+body {
+    background: #456;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+}
+
+    /* Reset top and bottom margins from certain elements */
+    .login-header,
+    .login p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+/* The triangle form is achieved by a CSS hack */
+.login-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: #28d;
+}
+
+.header {
+    background: #28d;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.container {
+    background: #ebebeb;
+    padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+    padding: 12px;
+}
+
+.input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+    .input[type="email"],
+    .input[type="password"] {
+        background: #fff;
+        border-color: #bbb;
+        color: #555;
+    }
+
+        /* Text fields' focus effect */
+        .input[type="email"]:focus,
+        .input[type="password"]:focus {
+            border-color: #888;
+        }
+
+    .input[type="submit"] {
+        background: #28d;
+        border-color: transparent;
+        color: #fff;
+        cursor: pointer;
+    }
+
+        .input[type="submit"]:hover {
+            background: #17c;
+        }
+
+        /* Buttons' focus effect */
+        .login input[type="submit"]:focus {
+            border-color: #05a;
+        }
+.container {
+    background-image: url() body, html
+
+{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Sniglet', cursive;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 500px;
+    color: #F90;
+    text-align: center;
+}
+
+/* Animation webkit */
+@-webkit-keyframes myfirst {
+    0% {
+        margin-left: -235px
+    }
+
+    90% {
+        margin-left: 100%;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+
+/* Animation */
+@keyframes myfirst {
+    0% {
+        margin-left: -235px
+    }
+
+    70% {
+        margin-left: 100%;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+
+.fish {
+    background-image: url('http://www.geertjanhendriks.nl/codepen/form/fish.png');
+    width: 235px;
+    height: 104px;
+    margin-left: -235px;
+    position: absolute;
+    animation: myfirst 24s;
+    -webkit-animation: myfirst 24s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+}
+
+#fish {
+    top: 120px;
+}
+
+#fish2 {
+    top: 260px;
+    animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+}
+
+
+header {
+    height: 160px;
+    background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
+}
+
+#form {
+    height: 100%;
+    background-color: #98d4f3;
+    overflow: hidden;
+    position: relative;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 40px;
+    color: white;
+    position: relative;
+}
+
+label, input, textarea {
+    display: block;
+}
+
+input, textarea {
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    font-family: 'Sniglet', cursive;
+    font-size: 1em;
+    color: #676767;
+    transition: border 0.5s;
+    -webkit-transition: border 0.5s;
+    -moz-transition: border 0.5s;
+    -o-transition: border 0.5s;
+    border: solid 3px #98d4f3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    input:focus, textarea:focus {
+        border: solid 3px #77bde0;
+    }
+
+textarea {
+    height: 100px;
+    resize: none;
+    overflow: auto;
+}
+
+input[type="submit"] {
+    background-color: #F90;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 1.29em;
+    font-family: 'Sniglet', cursive;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+    input[type="submit"]:hover {
+        background-color: #e58f0e;
+    }
+
+label {
+    font-size: 1.5em;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.formgroup, .formgroup-active, .formgroup-error {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 10.5%;
+    transition: background-image 0.7s;
+    -webkit-transition: background-image 0.7s;
+    -moz-transition: background-image 0.7s;
+    -o-transition: background-image 0.7s;
+    width: 566px;
+    padding-top: 2px;
+}
+
+.formgroup {
+    background-image: url('http://www.geertjanhendriks.nl/codepen/form/pixel.gif');
+}
+
+.formgroup-active {
+    background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo.png');
+}
+
+.formgroup-error {
+    background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo-error.png');
+    color: red;
+}
